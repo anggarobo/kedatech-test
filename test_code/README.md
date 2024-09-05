@@ -21,7 +21,7 @@
     ```
  
 3. Buatlah fungsi untuk mendapatkan jumlah semua bilangan genap dalam nested objek
-    ```json
+    ```javascript
     Input : {
             outer: 2,
             obj: {
@@ -114,7 +114,7 @@ function runSortTests() {
 runSortTests();
 ```
 
-#### Function maxSubarraySum
+#### 2. Function maxSubarraySum
 
 ###### Description:
 
@@ -181,7 +181,7 @@ function runMaxSubarrayTests() {
 runMaxSubarrayTests();
 ```
 
-#### Function sumEvenNumbers
+#### 3. Function sumEvenNumbers
 
 ###### Description:
 
