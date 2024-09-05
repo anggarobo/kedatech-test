@@ -102,7 +102,7 @@ function runSortTests() {
     ];
 
     testCases.forEach((test, index) => {
-        const result = manualSortDesc(test.input);
+        const result = sort.descending(test.input);
         console.log(result);
         console.assert(
             JSON.stringify(result) === JSON.stringify(test.expected),
@@ -275,7 +275,7 @@ runSumEvenNumbersTests();
 
 ## Summary of Functions:
 
-###### 1. `manualSortDesc(arr)`:
+###### 1. `sort.descending(arr)`:
 
 Sorts an array of numbers from largest to smallest without using built-in sort functions.
 
